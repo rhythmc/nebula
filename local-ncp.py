@@ -33,8 +33,7 @@ but leave the table and queue information the same)
 
 2. Run two instances of this script (one for each direction)
 
-	sudo python local-ncp.py IN
-	sudo python local-ncp.py OUT
+	sudo python local-ncp.py
 
 ===============================================================================
 
