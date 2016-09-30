@@ -83,14 +83,14 @@ class NaiveNCP:
 
 	def handle_outgoing_packet(self, pkt):
 		print "Outgoing packet..."
-		print_packet(pkt)
+		#print_packet(pkt)
 		# TODO modify with pkt.set_payload(str(payload))
 		# NOTE must either .accept or .drop the packet before returning
 		pkt.accept()
 
 	def handle_incoming_packet(self, pkt):
 		print "Incoming packet..."
-		print_packet(pkt)
+		#print_packet(pkt)
 		# TODO modify with pkt.set_payload(str(payload))
 		# NOTE must either .accept or .drop the packet before returning
 		pkt.accept()
